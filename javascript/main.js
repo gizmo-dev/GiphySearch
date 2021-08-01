@@ -27,7 +27,7 @@ function getInput(item) {
   var query = item.split(' ').join('+')
   
 
-  var url = "http://api.giphy.com/v1/gifs/search?q="+ query + "&api_key=SDEsWMHoj4DO7LFMxWFHlVJVkElcDm8h";
+  var url = "https://api.giphy.com/v1/gifs/search?q="+ query + "&api_key=SDEsWMHoj4DO7LFMxWFHlVJVkElcDm8h";
 
 
 
