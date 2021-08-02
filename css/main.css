@@ -1,0 +1,76 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background:  #121212;
+}
+
+
+.container-padding50 {
+	padding-top: 50px;
+}
+
+.container-textinput {
+	width: 80%;
+	display: inline-block;
+	padding: 20px;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+}
+
+.container-button {
+	width: 10%;
+	display: block;
+	padding: 5px;
+	background-color: turquoise;
+	color: #121212;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	border: 1px solid turquoise;
+	border-radius: 5px;
+	position: absolute;
+	top: 3rem;
+	right: 3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container-image {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	display: block;
+	border: 5px solid turquoise;
+	border-radius: 20px;
+}
+
+.results{
+
+	color: turquoise;
+	margin-top: 10px;
+	padding: 5px;
+	position: absolute;
+	right: 370px;
+
+}
+
+footer{
+	color: turquoise;
+	position: absolute;
+    right: 50px;
+    bottom: 0;
+    height: 60px;
+    overflow: hidden;  /* Height of the footer */
+	font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+a{
+	color: turquoise;
+	text-decoration: none;
+}
+
